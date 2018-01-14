@@ -1,0 +1,23 @@
+$false: fasle;
+
+
+// размеры для различных блоков
+@mixin size ($a, $b: $fasle){
+    width: $a;
+    @if $b == fasle {
+        height: $b;
+    }    
+    @else {
+        height: $a;
+    }
+}
+
+// абсолютное центрирование
+@mixin absolute-center (){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+

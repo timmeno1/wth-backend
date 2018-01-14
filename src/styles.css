@@ -1,0 +1,91 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImdsb2JhbC9yZXNldC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7RUFNRTtBQUVGOzs7Ozs7Ozs7Ozs7O0VBYUksVUFBUTtFQUNSLFdBQVM7RUFDVCxVQUFRO0VBQ1IsV0FBUztFQUNULGdCQUFjO0VBQ2QseUJBQXVCO0VBQ3ZCLHdCQUFzQixFQUN6Qjs7QUFFRDtFQUNJLGVBQWEsRUFDaEI7O0FBQ0QsaURBQWlEO0FBQ2pEOztFQUVJLGVBQWEsRUFDaEI7O0FBRUQ7RUFDSSxpQkFBZSxFQUNsQjs7QUFFRDtFQUNJLGFBQVcsRUFDZDs7QUFFRDs7RUFFSSxZQUFVO0VBQ1YsY0FBWSxFQUNmOztBQUVEO0VBQ0ksVUFBUTtFQUNSLFdBQVM7RUFDVCxnQkFBYztFQUNkLHlCQUF1QjtFQUN2Qix3QkFBc0IsRUFDekI7O0FBRUQsdUNBQXVDO0FBQ3ZDO0VBQ0ksdUJBQXFCO0VBQ3JCLFlBQVU7RUFDVixzQkFBb0IsRUFDdkI7O0FBRUQsdUNBQXVDO0FBQ3ZDO0VBQ0ksdUJBQXFCO0VBQ3JCLFlBQVU7RUFDVixtQkFBaUI7RUFDakIsa0JBQWdCLEVBQ25COztBQUVEO0VBQ0ksOEJBQTZCLEVBQ2hDOztBQUVEO0VBQ0ksMEJBQXdCO0VBQ3hCLGFBQVcsRUFDZDs7QUFFRDtFQUNJLDBCQUF3QjtFQUN4QixrQkFBZ0IsRUFDbkI7O0FBRUQsNkNBQTZDO0FBQzdDO0VBQ0ksZUFBYTtFQUNiLFlBQVU7RUFDVixVQUFRO0VBQ1IsOEJBQTRCO0VBQzVCLGNBQVk7RUFDWixXQUFTLEVBQ1o7O0FBRUQ7RUFDSSx1QkFBcUIsRUFDeEIiLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxyXG5odG1sNWRvY3Rvci5jb20gUmVzZXQgU3R5bGVzaGVldFxyXG52MS42LjFcclxuTGFzdCBVcGRhdGVkOiAyMDEwLTA5LTE3XHJcbkF1dGhvcjogUmljaGFyZCBDbGFyayAtIGh0dHA6Ly9yaWNoY2xhcmtkZXNpZ24uY29tXHJcblR3aXR0ZXI6IEByaWNoX2NsYXJrXHJcbiovXHJcblxyXG5odG1sLCBib2R5LCBkaXYsIHNwYW4sIGFwcGxldCwgb2JqZWN0LCBpZnJhbWUsXHJcbmgxLCBoMiwgaDMsIGg0LCBoNSwgaDYsIHAsIGJsb2NrcXVvdGUsIHByZSxcclxuYSwgYWJiciwgYWNyb255bSwgYWRkcmVzcywgYmlnLCBjaXRlLCBjb2RlLFxyXG5kZWwsIGRmbiwgZW0sIGltZywgaW5zLCBrYmQsIHEsIHMsIHNhbXAsXHJcbnNtYWxsLCBzdHJpa2UsIHN0cm9uZywgc3ViLCBzdXAsIHR0LCB2YXIsXHJcbmIsIHUsIGksIGNlbnRlcixcclxuZGwsIGR0LCBkZCwgb2wsIHVsLCBsaSxcclxuZmllbGRzZXQsIGZvcm0sIGxhYmVsLCBsZWdlbmQsXHJcbnRhYmxlLCBjYXB0aW9uLCB0Ym9keSwgdGZvb3QsIHRoZWFkLCB0ciwgdGgsIHRkLFxyXG5hcnRpY2xlLCBhc2lkZSwgY2FudmFzLCBkZXRhaWxzLCBlbWJlZCxcclxuZmlndXJlLCBmaWdjYXB0aW9uLCBmb290ZXIsIGhlYWRlciwgaGdyb3VwLFxyXG5tZW51LCBuYXYsIG91dHB1dCwgcnVieSwgc2VjdGlvbiwgc3VtbWFyeSxcclxudGltZSwgbWFyaywgYXVkaW8sIHZpZGVvIHtcclxuICAgIG1hcmdpbjowO1xyXG4gICAgcGFkZGluZzowO1xyXG4gICAgYm9yZGVyOjA7XHJcbiAgICBvdXRsaW5lOjA7XHJcbiAgICBmb250LXNpemU6MTAwJTtcclxuICAgIHZlcnRpY2FsLWFsaWduOmJhc2VsaW5lO1xyXG4gICAgYmFja2dyb3VuZDp0cmFuc3BhcmVudDtcclxufVxyXG5cclxuYm9keSB7XHJcbiAgICBsaW5lLWhlaWdodDoxO1xyXG59XHJcbi8qIEhUTUw1IGRpc3BsYXktcm9sZSByZXNldCBmb3Igb2xkZXIgYnJvd3NlcnMgKi9cclxuYXJ0aWNsZSxhc2lkZSxkZXRhaWxzLGZpZ2NhcHRpb24sZmlndXJlLFxyXG5mb290ZXIsaGVhZGVyLGhncm91cCxtZW51LG5hdixzZWN0aW9uIHtcclxuICAgIGRpc3BsYXk6YmxvY2s7XHJcbn1cclxuXHJcbm5hdiB1bCB7XHJcbiAgICBsaXN0LXN0eWxlOm5vbmU7XHJcbn1cclxuXHJcbmJsb2NrcXVvdGUsIHEge1xyXG4gICAgcXVvdGVzOm5vbmU7XHJcbn1cclxuXHJcbmJsb2NrcXVvdGU6YmVmb3JlLCBibG9ja3F1b3RlOmFmdGVyLFxyXG5xOmJlZm9yZSwgcTphZnRlciB7XHJcbiAgICBjb250ZW50OicnO1xyXG4gICAgY29udGVudDpub25lO1xyXG59XHJcblxyXG5hIHtcclxuICAgIG1hcmdpbjowO1xyXG4gICAgcGFkZGluZzowO1xyXG4gICAgZm9udC1zaXplOjEwMCU7XHJcbiAgICB2ZXJ0aWNhbC1hbGlnbjpiYXNlbGluZTtcclxuICAgIGJhY2tncm91bmQ6dHJhbnNwYXJlbnQ7XHJcbn1cclxuXHJcbi8qIGNoYW5nZSBjb2xvdXJzIHRvIHN1aXQgeW91ciBuZWVkcyAqL1xyXG5pbnMge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjojZmY5O1xyXG4gICAgY29sb3I6IzAwMDtcclxuICAgIHRleHQtZGVjb3JhdGlvbjpub25lO1xyXG59XHJcblxyXG4vKiBjaGFuZ2UgY29sb3VycyB0byBzdWl0IHlvdXIgbmVlZHMgKi9cclxubWFyayB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiNmZjk7XHJcbiAgICBjb2xvcjojMDAwO1xyXG4gICAgZm9udC1zdHlsZTppdGFsaWM7XHJcbiAgICBmb250LXdlaWdodDpib2xkO1xyXG59XHJcblxyXG5kZWwge1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiBsaW5lLXRocm91Z2g7XHJcbn1cclxuXHJcbmFiYnJbdGl0bGVdLCBkZm5bdGl0bGVdIHtcclxuICAgIGJvcmRlci1ib3R0b206MXB4IGRvdHRlZDtcclxuICAgIGN1cnNvcjpoZWxwO1xyXG59XHJcblxyXG50YWJsZSB7XHJcbiAgICBib3JkZXItY29sbGFwc2U6Y29sbGFwc2U7XHJcbiAgICBib3JkZXItc3BhY2luZzowO1xyXG59XHJcblxyXG4vKiBjaGFuZ2UgYm9yZGVyIGNvbG91ciB0byBzdWl0IHlvdXIgbmVlZHMgKi9cclxuaHIge1xyXG4gICAgZGlzcGxheTpibG9jaztcclxuICAgIGhlaWdodDoxcHg7XHJcbiAgICBib3JkZXI6MDtcclxuICAgIGJvcmRlci10b3A6MXB4IHNvbGlkICNjY2NjY2M7XHJcbiAgICBtYXJnaW46MWVtIDA7XHJcbiAgICBwYWRkaW5nOjA7XHJcbn1cclxuXHJcbmlucHV0LCBzZWxlY3Qge1xyXG4gICAgdmVydGljYWwtYWxpZ246bWlkZGxlO1xyXG59Il19 */
